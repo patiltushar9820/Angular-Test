@@ -51,7 +51,7 @@ export class SelectalertComponent implements OnInit {
     });
   }
   
-  onEventSelector(event) {
+  onEventSelector(event ) {
     this.alerttype=event.value;
   }
 
