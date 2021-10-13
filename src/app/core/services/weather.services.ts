@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 
-import { environment } from '../../environments/environment';
-import { AlertType } from './models/alert-type.model';
+import { environment } from 'src/environments/environment'; 
+import { AlertType } from '../models/alert-type.model';
 import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })

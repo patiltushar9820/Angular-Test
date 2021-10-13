@@ -27,21 +27,30 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  background-color: #333;
+   height: 100%; 
+   width: 100%;
+  background-color: rgba(241, 237, 237, 0.933);
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  height: 100%;
   color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+ // text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+ // box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 70em;
+  height: 100%;
+  
 }
+
+
+/*
+*/
 
 
 /*
@@ -49,23 +58,33 @@ body {
  */
 .masthead {
   margin-bottom: 2rem;
+  
 }
 
 .masthead-brand {
+  text-align: center;
   margin-bottom: 0;
+  background-color: #333;
+  width: 100% ;
+ 
+  
+ 
 }
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  
+  color: rgba(255, 255, 255, 0.946);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgb(255, 250, 250);
+  
+  
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -73,16 +92,19 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: rgb(85, 80, 80);
+  border-bottom-color: rgb(65, 44, 44);
 }
 
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
+    
   }
   .nav-masthead {
     float: right;
+    
+    
   }
 }
 
@@ -103,5 +125,7 @@ body {
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  background-color: rgba(75, 73, 73, 0.96);
 }
+html, body { height: 100%; width: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}

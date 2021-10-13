@@ -4,7 +4,11 @@
 
 export const environment = {
   production: false,
-  api_weather_endpoint: 'https://api.weather.gov/'
+  api_weather_endpoint: 'https://api.weather.gov/',
+  //api for area
+  api_area:'https://api.weather.gov/alerts/active/count',
+  //api for particular alert type
+  particular_area_api:'https://api.weather.gov/alerts/active/area/'
 };
 
 /*
